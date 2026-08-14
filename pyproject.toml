@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "psutil>=7.2.2",
+    "textual>=8.2.8",
 ]
 
 [project.scripts]
