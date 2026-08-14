@@ -1,0 +1,19 @@
+[project]
+name = "sysmonitor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Michael Mawuli", email = "uglytino@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "psutil>=7.2.2",
+]
+
+[project.scripts]
+sysmonitor = "sysmonitor:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
